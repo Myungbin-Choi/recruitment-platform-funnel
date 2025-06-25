@@ -63,11 +63,18 @@
 ---
 
 ## directory structure
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+```bash
+├── README.md                     <- 프로젝트 요약 설명
+├── recruitment_funnel.ipynb      <- 분석 통합 파일 (preview 용)
+├── recruitment_funnel.py         <- 분석 통합 파일 (code 공유용)
+├── 채용플랫폼_요약포트폴리오.pdf        <- 프로젝트 2page 요약 파일
+├── 채용플랫폼_포트폴리오.pdf           <- 프로젝트 보고서 요약 파일
+├── images                 
+│   ├── abtest.png       
+│   ├── funnel.png      
+│   ├── funnel_anlalytics.png   
+│   └── persona.png            
+│   └── process.png           
+│   └── user_journey.png        
+│   └── user_journey_differences.png           
+```
