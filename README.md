@@ -39,7 +39,7 @@
 
 ### 주요 분석 결과
 #### 1. 퍼널 단계별 이탈률
-![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel.png)
+![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/images/funnel.png)
 - **__2단계 개인 이력서 작성 단계의 경우, 이탈률은 낮으나 후속 단계 전환에 지속적인 영향을 미칠 수 있다고 판단하여 해당 단계에 대한 현황 분석 진행__**
 
 
