@@ -1,6 +1,7 @@
 # 채용 플랫폼 유저 이탈 개선 프로젝트 
 ## _'지원 미완료 초기 이탈 유저'_ 개선을 위한 데이터 분석
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+
 
 ## 프로젝트 개요
 ### 분석 목적
@@ -8,13 +9,16 @@
 - '지원 미완료 유저'의 이탈 지점을 식별하고, '지원 완료' 유저의 이용 패턴과 비교하여 주요 이탈 원인을 파악한다
 - 플랫폼 초기 리텐션 및 전환율을 향상시킬 수 있는 개선 제안을 도출한다
 
+
 ### 활용 데이터
-유저 로그 데이터 (6개월 내 플랫폼 신규 가입 유저 총 539명의 로그 데이터)
+**유저 로그 데이터 (6개월 내 플랫폼 신규 가입 유저 총 539명의 로그 데이터)**
 - 보유 컬럼 : 유저ID, 로그 생성 시점, 로그 생성일, URL, HTTP 응답 코드, HTTP 요청 메소드
 - 보조 활용 데이터 : 기업 정보 데이터, 채용 공고 정보 데이터, 채용 공고 북마크 정보 데이터, 유저 지원 데이터 등
 
+
 ### 타겟 유저 페르소나
 ![persona](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/persona.png)
+
 
 ### 수행 역할
 - 유저 로그데이터 URL 분류를 통한 퍼널 단계 설정
