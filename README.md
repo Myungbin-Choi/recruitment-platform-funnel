@@ -12,7 +12,7 @@
 - 보조 활용 데이터 : 기업 정보 데이터, 채용 공고 정보 데이터, 채용 공고 북마크 정보 데이터, 유저 지원 데이터 등
 
 ### 타겟 유저 페르소나
-![persona] (https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/Persona.png)
+![persona](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/Persona.png)
 
 ### 수행 역할
 - 유저 로그데이터 URL 분류를 통한 퍼널 단계 설정
