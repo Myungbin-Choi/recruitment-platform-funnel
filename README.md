@@ -1,4 +1,4 @@
-# 채용 플랫폼 '지원 비완료 탐색 유저' 이탈 개선을 위한 데이터 분석
+# 채용 플랫폼 '지원 비완료 탐색 유저' 이탈 개선 프로젝트
 ---
 ## 프로젝트 개요
 ### 분석 목적
@@ -24,17 +24,19 @@
 ### 진행 프로세스 및 주요 분석 과정
 1) 데이터 기초 EDA 진행을 통한 플랫폼 이용 행태 탐색
 2) 유저 로그데이터 URL 분석 및 그룹화
-- <이미지>
+![url](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/URL.png)
 3) 퍼널 단계 분석을 위한 데이터 전처리
 4) 퍼널 분석
-- <이미지>
-5) 단계별 이탈 원인 파악을 위한 가설 검증
-6) 유저 여정 분석
-7) 이탈 개선을 위한 A/B테스트 설계
+![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel.png)
+6) 단계별 이탈 원인 파악을 위한 가설 검증
+7) 유저 여정 분석
+8) 이탈 개선을 위한 A/B테스트 설계
 
 ### 주요 분석 결과
-#### 주요 이탈구간 현황 파악
+#### 퍼널 단계별 현황
+![conversion](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/conversion.png)
 
+#### 단계별
 
 ### 유저 여정 분석
 
@@ -44,7 +46,7 @@
 
 ### 개선제안
 - 채용 플랫폼 이용에 있어 '이력서 작성' 단계의 경우, 퍼널 단계 중 이탈률은 낮은 편이나 이 단계에서의 경험이 이후 단계에서의 전환에 큰 영향을 미치고 있으므로, 이력서 작성에 대한 동기 유발 설계를 강화할 필요성 도출
-- <이미지>
+![abtest](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/abtest.png)
 
 
 ---
