@@ -27,13 +27,21 @@
 ---
 
 ## 분석 과정 및 주요 결과
+### 주요 결과 요약
+1) **이력서 수정 빈도**가 높은 유저는 플랫폼 내에서 더 활발한 탐색 및 지원 활동으로 이어진다
+2) **이력서에 기본 정보만 입력**하는 유저는 이후 지원서 작성 단계로의 전환율이 유의미하게 낮다
+3) 지원 공고에 대한 클릭이 잦은 유저그룹은 최종 단계에 도달하는 비율이 높다
+
+
 ### 진행 프로세스 및 주요 분석 과정
-![process]
+![process](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/process.png)
+
 
 ### 주요 분석 결과
 #### 퍼널 단계별 이탈률
 ![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel.png)
-- 2단계 개인 이력서 작성 단계의 경우, 이탈률은 낮으나 후속 단계 전환에 지속적인 영향을 미칠 수 있다고 판단하여 해당 단계에 대한 현황 분석 진행
+- **__2단계 개인 이력서 작성 단계의 경우, 이탈률은 낮으나 후속 단계 전환에 지속적인 영향을 미칠 수 있다고 판단하여 해당 단계에 대한 현황 분석 진행__**
+
 
 #### 주요 이탈구간 현황 파악
 ![funnel_analytics](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel_analytics.png)
@@ -41,18 +49,63 @@
 - 개인 이력서에 대한 확인 및 수정이 잦은 유저의 이탈률이 낮다
 - 관련 공고 불러오기 클릭이 잦을수록 다음 단계로의 전환이 높다 등 가설 검증
 
+
 #### 유저 여정 분석
 ![user_journey](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/user_journey.png)
 ![user_journey_differences](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/user_journey_differences.png)
 - 이력서를 간단히 작성한 유저일수록 탐색 단계에서 빠르게 이탈하는 경향이 있다
 - 즉, 플랫폼 내 이력서 작성 경험이 지원서 작성으로 이어지도록 충분히 동기부여되지 못했다
-
-### 주요 결과 요약
-1) 이력서 수정 빈도가 높은 유저는 플랫폼 내에서 더 활발한 탐색 및 지원 활동으로 이어진다
-2) 이력서에 기본 정보만 입력하는 유저는 이후 지원서 작성 단계로의 전환율이 유의미하게 낮다
-3) 지원 공고에 대한 클릭이 잦은 유저그룹은 최종 단계에 도달하는 비율이 높다
+  
    
 ### 개선제안
 - 채용 플랫폼 이용에 있어 '이력서 작성' 단계의 경우, 퍼널 단계 중 이탈률은 낮은 편이나 이 단계에서의 경험이 이후 단계에서의 전환에 큰 영향을 미치고 있으므로, 이력서 작성에 대한 동기 유발 설계를 강화할 필요성 도출
 ![abtest](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/abtest.png)
 ---
+
+## directory structure
+├── LICENSE            <- Open-source license if one is chosen
+├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── docs               <- A default mkdocs project; see www.mkdocs.org for details
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `1.0-jqp-initial-data-exploration`.
+│
+├── pyproject.toml     <- Project configuration file with package metadata for 
+│                         {{ cookiecutter.module_name }} and configuration for tools like black
+│
+├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── figures        <- Generated graphics and figures to be used in reporting
+│
+├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+│                         generated with `pip freeze > requirements.txt`
+│
+├── setup.cfg          <- Configuration file for flake8
+│
+└── {{ cookiecutter.module_name }}   <- Source code for use in this project.
+    │
+    ├── __init__.py             <- Makes {{ cookiecutter.module_name }} a Python module
+    │
+    ├── config.py               <- Store useful variables and configuration
+    │
+    ├── dataset.py              <- Scripts to download or generate data
+    │
+    ├── features.py             <- Code to create features for modeling
+    │
+    ├── modeling                
+    │   ├── __init__.py 
+    │   ├── predict.py          <- Code to run model inference with trained models          
+    │   └── train.py            <- Code to train models
+    │
+    └── plots.py                <- Code to create visualizations   
