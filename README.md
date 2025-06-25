@@ -38,19 +38,19 @@
 
 
 ### 주요 분석 결과
-#### 퍼널 단계별 이탈률
+#### 1. 퍼널 단계별 이탈률
 ![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel.png)
 - **__2단계 개인 이력서 작성 단계의 경우, 이탈률은 낮으나 후속 단계 전환에 지속적인 영향을 미칠 수 있다고 판단하여 해당 단계에 대한 현황 분석 진행__**
 
 
-#### 주요 이탈구간 현황 파악
+#### 2. 주요 이탈구간 현황 파악
 ![funnel_analytics](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel_analytics.png)
 - 단계별 체류시간이 짧을수록 다음 단계로의 전환이 낮다
 - 개인 이력서에 대한 확인 및 수정이 잦은 유저의 이탈률이 낮다
 - 관련 공고 불러오기 클릭이 잦을수록 다음 단계로의 전환이 높다 등 가설 검증
 
 
-#### 유저 여정 분석
+#### 3. 유저 여정 분석
 ![user_journey](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/user_journey.png)
 ![user_journey_differences](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/user_journey_differences.png)
 - 이력서를 간단히 작성한 유저일수록 탐색 단계에서 빠르게 이탈하는 경향이 있다
@@ -71,41 +71,3 @@
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         {{ cookiecutter.module_name }} and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── {{ cookiecutter.module_name }}   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes {{ cookiecutter.module_name }} a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations   
