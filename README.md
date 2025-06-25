@@ -64,7 +64,7 @@
 
 ## directory structure
 ```bash
-├── README.md                     - 프로젝트 요약 설명
+├── README.md                     <- 프로젝트 요약 설명
 ├── recruitment_funnel.ipynb      <- 분석 통합 파일 (preview 용)
 ├── recruitment_funnel.py         <- 분석 통합 파일 (code 공유용)
 ├── 채용플랫폼_요약포트폴리오.pdf        <- 프로젝트 2page 요약 파일
