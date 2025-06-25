@@ -12,7 +12,7 @@
 - 보조 활용 데이터 : 기업 정보 데이터, 채용 공고 정보 데이터, 채용 공고 북마크 정보 데이터, 유저 지원 데이터 등
 
 ### 타겟 유저 페르소나
-![persona](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/Persona.png)
+![persona](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/persona.png)
 
 ### 수행 역할
 - 유저 로그데이터 URL 분류를 통한 퍼널 단계 설정
@@ -24,17 +24,17 @@
 ### 진행 프로세스 및 주요 분석 과정
 1) 데이터 기초 EDA 진행을 통한 플랫폼 이용 행태 탐색
 2) 유저 로그데이터 URL 분석 및 그룹화
-![url](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/URL.png)
 3) 퍼널 단계 분석을 위한 데이터 전처리
 4) 퍼널 분석
-![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel.png)
 6) 단계별 이탈 원인 파악을 위한 가설 검증
 7) 유저 여정 분석
 8) 이탈 개선을 위한 A/B테스트 설계
 
 ### 주요 분석 결과
 #### 퍼널 단계별 현황
-![conversion](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/conversion.png)
+
+
+
 
 #### 단계별
 
